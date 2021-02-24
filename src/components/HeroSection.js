@@ -35,6 +35,7 @@ export default class HeroSection extends React.Component {
                       <p>another: {_.get(section, 'another', null)}</p>
                       <div>
                       <p>another2: {_.get(section, 'another2', null)}</p>
+                      </div>
                     </div>
                     )}
                     {_.get(section, 'actions', null) && (
